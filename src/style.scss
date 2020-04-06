@@ -1,0 +1,20 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.main-game {
+  display: flex;
+  width: 40vw;
+  flex-wrap: wrap;
+
+  & input {
+    box-shadow: 0 0 0 1px rgb(5, 5, 5);
+    width: 10vw;
+    height: 10vw;
+    border: 0;
+    outline: none;
+  }
+}
